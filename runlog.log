@@ -1,0 +1,5984 @@
+Added file K:\three\ThreeS\build.xml
+Buildfile: K:\three\ThreeS\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: K:\three\ThreeS\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to K:\three\ThreeS\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeS\bin\classes
+      [dex] Converting compiled files and external libraries into K:\three\ThreeS\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeS\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+error: device not found
+error: device not found
+error: device not found
+error: device not found
+Updated file K:\three\ThreeS\build.xml
+Buildfile: K:\three\ThreeS\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeS\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeS\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeS\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+error: device not found
+error: device not found
+error: device not found
+error: device not found
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: K:\three\ThreeDemo\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+706 KB/s (4242 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDevice
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testDevice:
+
+java.lang.NullPointerException
+
+	at com.jikexueyuan.Demo2.press(Demo2.java:7)
+
+	at com.jikexueyuan.Demo.testDevice(Demo.java:11)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDevice
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException
+
+	at com.jikexueyuan.Demo2.press(Demo2.java:7)
+
+	at com.jikexueyuan.Demo.testDevice(Demo.java:11)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 0.033
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+389 KB/s (4288 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDevice
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDevice
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 3.772
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+538 KB/s (4314 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPress
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPress
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.695
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1089 KB/s (4367 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPress
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPress
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.546
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+339 KB/s (4422 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPress
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPress
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 3.073
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+637 KB/s (4462 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPress
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPress
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 3.505
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+636 KB/s (4459 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.136
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+754 KB/s (4529 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.132
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+452 KB/s (4529 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.133
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+754 KB/s (4529 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.134
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+    [javac] K:\three\ThreeDemo\src\com\jikexueyuan\Demo.java:3: ����: �����org.w3c.dom.css������
+    [javac] import org.w3c.dom.css.Rect;
+    [javac]                       ^
+    [javac] 1 ������
+
+BUILD FAILED
+K:\win64\adt-bundle-windows-x86_64-20140702\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+1130 KB/s (4529 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.133
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+487 KB/s (4876 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+[324,301]
+
+[756,853]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.543
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+405 KB/s (4872 bytes in 0.011s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+[324,301]
+
+[756,853]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.541
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+622 KB/s (4986 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+[324,301]
+
+[756,853]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.544
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+995 KB/s (4983 bytes in 0.004s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+[324,301]
+
+[756,853]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.544
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+995 KB/s (4983 bytes in 0.004s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+[324,301]
+
+[756,853]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.547
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+712 KB/s (4983 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+[324,301]
+
+[756,853]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.544
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+452 KB/s (4983 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+[324,301]
+
+[756,853]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.548
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+553 KB/s (4985 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+[324,301]
+
+[756,853]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.541
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+719 KB/s (5043 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.146
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+839 KB/s (5043 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.188
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+559 KB/s (5039 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.663
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1007 KB/s (5043 bytes in 0.004s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 3.162
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+505 KB/s (5062 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.11
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+508 KB/s (5091 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 2.827
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+726 KB/s (5091 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 2.9
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+1225 KB/s (4908 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+[324,373]
+
+[756,925]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.53
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+559 KB/s (5042 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+[324,373]
+
+[756,925]
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testClick
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.543
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+419 KB/s (5044 bytes in 0.011s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.041
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+458 KB/s (5044 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.693
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+840 KB/s (5043 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 2.373
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1007 KB/s (5045 bytes in 0.004s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 4.15
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+842 KB/s (5058 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.28
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+643 KB/s (5152 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testDragAndSwipe
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 4.407
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+524 KB/s (5245 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testOrientation
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testOrientation
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.538
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+874 KB/s (5250 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testOrientation
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testOrientation
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.537
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+674 KB/s (5402 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=ttestWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in ttestWakeupAndSleep:
+
+junit.framework.AssertionFailedError: Method "ttestWakeupAndSleep" not found
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=ttestWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: Method "ttestWakeupAndSleep" not found
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 0.026
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+539 KB/s (5404 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=ttestWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in ttestWakeupAndSleep:
+
+junit.framework.AssertionFailedError: Method "ttestWakeupAndSleep" not found
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=ttestWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: Method "ttestWakeupAndSleep" not found
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 0.027
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+897 KB/s (5385 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=ttestWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in ttestWakeupAndSleep:
+
+junit.framework.AssertionFailedError: Method "ttestWakeupAndSleep" not found
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=ttestWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: Method "ttestWakeupAndSleep" not found
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 0.028
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1349 KB/s (5402 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.029
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+599 KB/s (5409 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.527
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+777 KB/s (5461 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.017
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+779 KB/s (5464 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.288
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1372 KB/s (5491 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testWakeupAndSleep
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.022
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1097 KB/s (5492 bytes in 0.004s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testScreen
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testScreen
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 2.209
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+793 KB/s (5558 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testScreen
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testScreen
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 6.042
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+617 KB/s (5559 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIdle
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIdle
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.635
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+694 KB/s (5558 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIdle
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIdle
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.141
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+798 KB/s (5592 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIdle
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIdle
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.421
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+931 KB/s (5591 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIdle
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIdle
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.44
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 9 seconds
+689 KB/s (5524 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIdle
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIdle
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.552
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 14 seconds
+552 KB/s (5526 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIdle
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIdle
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.616
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 9 seconds
+369 KB/s (5546 bytes in 0.014s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIdle
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testIdle
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.316
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+936 KB/s (5620 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testGetPackage
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+com.android.browser
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testGetPackage
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.531
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+940 KB/s (5650 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testGetPackage
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+com.android.launcher
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testGetPackage
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.04
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+629 KB/s (5676 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testGetPackage
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+com.android.launcher
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testGetPackage
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.539
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+715 KB/s (5734 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testGetPackage
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+com.android.launcher
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testGetPackage
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 3.77
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+989 KB/s (5940 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testGetPackage
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+com.android.launcher
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testGetPackage
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 4.085
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+847 KB/s (5940 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 5.611
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+988 KB/s (5940 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 12.415
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+988 KB/s (5940 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 5.772
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+988 KB/s (5940 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 13.373
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1484 KB/s (5948 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 8.311
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1189 KB/s (5954 bytes in 0.004s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 10.35
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+541 KB/s (5966 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 24.662
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+662 KB/s (5972 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 33.346
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\three\ThreeDemo\build.xml
+Buildfile: K:\three\ThreeDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\three\ThreeDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\three\ThreeDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\three\ThreeDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\three\ThreeDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+994 KB/s (5971 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.Demo:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.Demo
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 29.102
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
